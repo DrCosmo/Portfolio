@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+h2{
+    margin: 0;
+    color: rgba(228, 115, 32, 1);
+}
+h1{
+    margin: 0;
+    color: rgba(241, 153, 21, 1);
+}
+
+span{
+    min-height: 50px;
+}
+
+
+
+.topbar{
+    background-color: rgba(32, 29, 27, 0.95);
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navSection{
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+}
