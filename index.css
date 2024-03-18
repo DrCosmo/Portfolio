@@ -25,6 +25,7 @@ span{
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     box-sizing: border-box;
+    margin-bottom: 25px;
 }
 
 .navSection{
@@ -36,4 +37,20 @@ span{
 .intro{
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
+}
+.projets{
+    border-style: dotted solid;
+    border-color: rgb(138, 87, 12);
+    display: grid;
+    justify-content: center;
+}
+
+.projets .tags{
+    display: flex;
+}
+.projets .tags *{
+    margin-left: 10px;
+    border: solid 1px;
+    border-radius: 10px;
 }
